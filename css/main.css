@@ -60,12 +60,118 @@ body {
 }
 
 .lissCont {
-
   margin-left: 40px;
 }
 
 .GinfoCont {
+  display: none;
+  flex-direction: column;
+  margin-right: 25px;
+  max-width: 400px;
+}
+.GinfoCont.slideToggle {
   display: flex;
-  justify-content: center;
-  margin-right: 10px;
+  flex-direction: column;
+  margin-right: 25px;
+  max-width: 400px;
+}
+.LinfoCont {
+  display: none;
+  margin-left: 25px;
+  max-width: 400px;
+}
+.LinfoCont.slideToggle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  max-width: 400px;
+}
+
+.GnameInfo {
+  font-family: 'Hahmlet', serif;
+  font-weight: 900;
+  text-align: right;
+  font-size: 40px;
+  color: #1c1f75;
+  margin-bottom: 10px;
+}
+.LnameInfo {
+  font-family: 'Hahmlet', serif;
+  font-weight: 900;
+  text-align: left;
+  font-size: 40px;
+  color: #1c1f75;
+  /*! margin-bottom: 10px; */
+}
+.GresumeInfo {
+  font-family: 'Georama', Helvetica;
+  font-weight: 700;
+  text-align: right;
+  color: #ce9500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.LresumeInfo {
+  font-family: 'Georama', Helvetica;
+  font-weight: 700;
+  text-align: left;
+  color: #ce9500;
+  font-size: 20px;
+  /*! margin-bottom: 10px; */
+}
+.Gparagraph {
+  font-family: 'Georama', Helvetica;
+  font-weight: 300;
+  text-align: right;
+  color: #666666;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.Lparagraph {
+  text-align: left;
+  font-family: 'Georama', Helvetica;
+  font-weight: 300;
+  color: #666666;
+  font-size: 15px;
+  /*! margin-bottom: 10px; */
+}
+.goBack {
+	font-family: 'Hahmlet', serif;
+	font-weight: 900;
+  text-align: right;
+	width: 68px;
+}
+
+.goBackG {
+	font-family: 'Hahmlet', serif;
+	font-weight: 900;
+  text-align: left;
+	width: 68px;
+	display: flex;
+	/*! justify-content: right; */
+}
+.goBackG:hover {
+  border-bottom: 3px solid #ce9500;
+	transition: all .1s ease;
+}
+.goBack:hover {
+  border-bottom: 3px solid #ce9500;
+	transition: all .1s ease;
+}
+
+.LImg {
+  display: none;
+}
+.LImg.slideToggle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.GImg {
+  display: none;
+}
+.GImg.slideToggle {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
