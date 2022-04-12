@@ -64,16 +64,25 @@ body {
 }
 
 .GinfoCont {
+  display: none;
+  flex-direction: column;
+  margin-right: 25px;
+  max-width: 400px;
+}
+.GinfoCont.slideToggle {
   display: flex;
   flex-direction: column;
-  /*! justify-content: center; */
   margin-right: 25px;
   max-width: 400px;
 }
 .LinfoCont {
+  display: none;
+  margin-left: 25px;
+  max-width: 400px;
+}
+.LinfoCont.slideToggle {
   display: flex;
   flex-direction: column;
-  /*! justify-content: center; */
   margin-left: 25px;
   max-width: 400px;
 }
@@ -152,12 +161,16 @@ body {
 
 .LImg {
   display: none;
+}
+.LImg.slideToggle {
   position: absolute;
   top: 0px;
   left: 0px;
 }
 .GImg {
   display: none;
+}
+.GImg.slideToggle {
   position: absolute;
   top: 0px;
   right: 0px;
