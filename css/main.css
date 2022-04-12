@@ -1,8 +1,71 @@
-  .hidden {
-    display: none;
-  }
+@charset "UTF-8";
 
-  .main-heading {
-    color: blue;
-    cursor: pointer;
-  }
+.hide {
+	display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+	font-family: 'Georama', Helvetica, Arial, sans-serif;
+  background-color: #fffcf8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.textBio {
+  font-family: 'Hahmlet', serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  color: #1c1f75;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.profileCont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.gonzaloCont {
+  margin-right: 40px;
+}
+
+.gonzaloCont img:hover {
+  padding: 10px;
+  max-width: 360px;
+  border-radius: 200px;
+  border: 3px solid #ce9500;
+  cursor: pointer;
+}
+
+.lissCont img:hover {
+  padding: 10px;
+  max-width: 360px;
+  border-radius: 200px;
+  border: 3px solid #ce9500;
+  cursor: pointer;
+}
+
+.lissCont {
+
+  margin-left: 40px;
+}
+
+.GinfoCont {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
