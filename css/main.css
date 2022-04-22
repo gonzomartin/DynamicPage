@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-  margin-top: 5%;
+  /*! margin-top: 5%; */
   display: flex;
   justify-content: center;
 }
@@ -63,11 +63,15 @@ body {
   margin-left: 40px;
 }
 
-.GinfoCont {
-  display: none;
+.infoCont {
   flex-direction: column;
-  margin-right: 25px;
-  max-width: 400px;
+  /*! max-width: 400px; */
+  /*! display: flex; */
+  /*! align-content: center; */
+  /*! justify-content: center; */
+  padding: 650px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .GinfoCont.slideToggle {
   display: flex;
@@ -75,11 +79,7 @@ body {
   margin-right: 25px;
   max-width: 400px;
 }
-.LinfoCont {
-  display: none;
-  margin-left: 25px;
-  max-width: 400px;
-}
+
 .LinfoCont.slideToggle {
   display: flex;
   flex-direction: column;
@@ -87,13 +87,13 @@ body {
   max-width: 400px;
 }
 
-.GnameInfo {
+.nameInfo {
   font-family: 'Hahmlet', serif;
   font-weight: 900;
-  text-align: right;
+  text-align: center;
   font-size: 40px;
   color: #1c1f75;
-  margin-bottom: 10px;
+  /*! margin-bottom: 10px; */
 }
 .LnameInfo {
   font-family: 'Hahmlet', serif;
@@ -103,26 +103,26 @@ body {
   color: #1c1f75;
   /*! margin-bottom: 10px; */
 }
-.GresumeInfo {
+.resumeInfo {
   font-family: 'Georama', Helvetica;
   font-weight: 700;
-  text-align: right;
-  color: #ce9500;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-.LresumeInfo {
-  font-family: 'Georama', Helvetica;
-  font-weight: 700;
-  text-align: left;
+  text-align: center;
   color: #ce9500;
   font-size: 20px;
   /*! margin-bottom: 10px; */
 }
-.Gparagraph {
+.LresumeInfo {
+  font-family: 'Georama', Helvetica;
+  font-weight: 700;
+  text-align: center;
+  color: #ce9500;
+  font-size: 20px;
+  /*! margin-bottom: 10px; */
+}
+.paragraph {
   font-family: 'Georama', Helvetica;
   font-weight: 300;
-  text-align: right;
+  text-align: left;
   color: #666666;
   font-size: 13px;
   margin-bottom: 10px;
@@ -138,22 +138,15 @@ body {
 .goBack {
 	font-family: 'Hahmlet', serif;
 	font-weight: 900;
-  text-align: right;
+  /*! text-align: center; */
 	width: 68px;
+	/*! display: flex; */
+	/*! justify-content: center; */
+	/*! align-content: center; */
+	margin-left: 920px;
 }
 
-.goBackG {
-	font-family: 'Hahmlet', serif;
-	font-weight: 900;
-  text-align: left;
-	width: 68px;
-	display: flex;
-	/*! justify-content: right; */
-}
-.goBackG:hover {
-  border-bottom: 3px solid #ce9500;
-	transition: all .1s ease;
-}
+
 .goBack:hover {
   border-bottom: 3px solid #ce9500;
 	transition: all .1s ease;
